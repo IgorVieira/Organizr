@@ -1,5 +1,14 @@
 <template>
   <div>
+    <div>
+      <md-toolbar>
+        <h1 class="md-title">My Title</h1>
+      </md-toolbar>
+
+      <div class="main-content">
+        <p>Vue Material is live!</p>
+      </div>
+    </div>
     <ul v-for="project in listProjects" :key="project.id">
       <li>
         {{project.name}}
