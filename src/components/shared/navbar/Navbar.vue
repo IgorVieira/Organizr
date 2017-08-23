@@ -1,6 +1,6 @@
 <template>
   <md-toolbar>
-    <h1 class="md-title">My Title</h1>
+    <h1 class="md-title">Organizr</h1>
   </md-toolbar>
 </template>
 <script>

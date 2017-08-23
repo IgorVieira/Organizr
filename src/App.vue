@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import Home from './components/pages/Home'
+import DashBoard from './components/pages/Dashboard'
 import Navbar from './components/shared/navbar/Navbar'
 
 export default {
   name: 'app',
   components: {
-    Home,
+    DashBoard,
     Navbar
   }
 }
