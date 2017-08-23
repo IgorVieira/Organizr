@@ -1,7 +1,8 @@
-import Home from './components/pages/Home'
+import Dashboard from './components/pages/Dashboard'
 import Project from './components/pages/Project'
+
 const routes = [
-  {path: '/', name: 'home', component: Home, title: 'Home'},
+  {path: '/', name: 'dashboard', component: Dashboard, title: 'Dashboard'},
   {path: '/projects', name: 'project', component: Project}
 ]
 
