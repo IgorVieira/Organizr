@@ -1,25 +1,35 @@
 # Organizr
 
+Organizr is a tool to simplify your way of managing personal projects.
 
 
-## Build Setup
+## Setup
 
-``` bash
-# install dependencies
-npm install
+
+```
+npm install && npm run dev
 
 # serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
+```
+
+## Build your application
+
+```
+# builds for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
+# builds for production and view the bundle analyzer report
 npm run build --report
+```
 
-# run unit tests
-npm run unit
+## Test Suite
 
-# run all tests
+```
+# runs unit tests
 npm test
 ```
+
+## License
+
+Organizr is made available under the Affero GPL license version 3, see [LICENSE.md](https://github.com/IgorVieira/organizr/blob/master/LICENSE).
