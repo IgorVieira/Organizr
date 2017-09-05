@@ -19,4 +19,18 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+  body {
+    font-family: 'Roboto', sans-serif;  
+    margin:0 auto;
+  }
+
+  a {
+    text-decoration: inherit;
+  }
+
+  
+
+
 </style>
