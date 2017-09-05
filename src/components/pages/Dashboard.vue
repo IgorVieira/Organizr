@@ -11,7 +11,9 @@
         v-for="project in projectsList">
         <md-card md-inset class="md-primary cards">
           <md-card-header>
-            <div class="md-title">{{ project.name | truncate }}</div>
+              <router-link :to="{ name: 'project', params: { id : project._id }}">
+               <div class="md-title">{{ project.name | truncate }}</div>
+              </router-link> 
             <div class="md-subhead">Subtitle here</div>
           </md-card-header>
         </md-card>
@@ -41,7 +43,10 @@ export default {
   name: 'dashboard',
   data () {
     return {
-      projectsList: []
+      projectsList: [{
+        _id: 1,
+        name: 'Something'
+      }]
     }
   },
   components: {
@@ -68,6 +73,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+a {
+  text-decoration: inherit;
+}
 .new-card-button {
   margin-top: 3.125rem;
 }
